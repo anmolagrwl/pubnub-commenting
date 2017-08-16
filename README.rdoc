@@ -1,0 +1,7 @@
+https://github.com/plataformatec/devise
+
+http://stackoverflow.com/questions/16513066/devise-with-rails-4
+
+https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-sign-in-using-their-username-or-email-address
+
+- disconnect from pubnub channel when nobody is not on that page

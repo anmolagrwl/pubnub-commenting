@@ -1,0 +1,3051 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-08 19:08:03 +0530
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.4) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (142.1ms)
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-08 19:08:05 +0530
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.4) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (92.2ms)
+  [1m[36m (3.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (19.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateArticles (20140718050619)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140718050619"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+Migrating to DeviseCreateUsers (20140725092119)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140725092119"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+Migrating to AddUsernameToUsers (20140725093416)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mALTER TABLE "users" ADD "username" varchar(255)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140725093416"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateComments (20140730005655)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "commentable_id" integer, "commentable_type" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_comments_on_commentable_id_and_commentable_type" ON "comments" ("commentable_id", "commentable_type")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140730005655"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_commentable_id_and_commentable_type' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_commentable_id_and_commentable_type' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-08 19:08:39 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_user_widget.html.erb (0.4ms)
+Completed 200 OK in 449ms (Views: 368.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:40 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-08 19:08:41 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (51.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (134.8ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-08-08 19:08:41 +0530
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (116.8ms)
+  Rendered articles/new.html.erb within layouts/application (120.2ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 190ms (Views: 187.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQLxBSsGmzeYcsaIGje2Bt08wZtGrAsp8q4UilGIi5c=", "article"=>{"name"=>"article1", "content"=>""}, "commit"=>"Create Article"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "articles" ("content", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)  [["content", ""], ["created_at", "2017-08-08 13:38:47.115505"], ["name", "article1"], ["updated_at", "2017-08-08 13:38:47.115505"]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 9ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.4ms)
+  Rendered comments/_form.html.erb (28.9ms)
+  Rendered articles/show.html.erb within layouts/application (79.3ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 177ms (Views: 128.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:47 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-08 19:08:49 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-08 19:08:52 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-08 19:08:53 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.8ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-08 19:08:53 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.2ms)
+  Rendered comments/_form.html.erb (3.2ms)
+  Rendered articles/show.html.erb within layouts/application (9.6ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 76ms (Views: 70.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-08 19:09:01 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text1"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text1"], ["created_at", "2017-08-08 13:39:01.181092"], ["updated_at", "2017-08-08 13:39:01.181092"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+  Rendered text template (0.0ms)
+Completed 200 OK in 46ms (Views: 35.6ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-08 19:09:08 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text2"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text2"], ["created_at", "2017-08-08 13:39:08.501689"], ["updated_at", "2017-08-08 13:39:08.501689"]]
+  [1m[35m (6.7ms)[0m  commit transaction
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 0.6ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (0.9ms)
+  Rendered comments/_form.html.erb (1.4ms)
+  Rendered articles/show.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 51.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:17 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-08 19:09:18 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.3ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-08 19:09:28 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text3"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text3"], ["created_at", "2017-08-08 13:39:28.970376"], ["updated_at", "2017-08-08 13:39:28.970376"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-08 19:09:34 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text4"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text4"], ["created_at", "2017-08-08 13:39:35.005825"], ["updated_at", "2017-08-08 13:39:35.005825"]]
+  [1m[35m (6.4ms)[0m  commit transaction
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.1ms)
+  Rendered comments/_form.html.erb (1.4ms)
+  Rendered articles/show.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-08 19:09:41 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-08 19:09:43 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 14:48:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (11.9ms)
+  Rendered layouts/_user_widget.html.erb (0.4ms)
+Completed 200 OK in 259ms (Views: 187.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 14:48:10 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 14:48:12 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (46.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (122.7ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:16 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:16 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:16 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:16 +0530
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 14:48:21 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (29.8ms)
+  Rendered comments/_form.html.erb (147.8ms)
+  Rendered articles/show.html.erb within layouts/application (182.9ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 298ms (Views: 241.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 14:48:28 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:28 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:28 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:28 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:48:28 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 14:48:28 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 14:48:30 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 14:50:40 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:50:40 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:50:40 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:50:40 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:50:40 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 14:50:40 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 14:50:42 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.7ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 14:50:51 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (2.6ms)
+  Rendered comments/_form.html.erb (2.9ms)
+  Rendered articles/show.html.erb within layouts/application (12.7ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 83ms (Views: 76.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 14:51:22 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:51:22 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:51:22 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 14:51:22 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:51:22 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:51:22 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 14:51:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 14:51:37 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_user_widget.html.erb (0.3ms)
+Completed 200 OK in 150ms (Views: 136.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:51:38 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:51:38 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:51:38 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:51:38 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 14:51:38 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 14:51:39 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 14:51:41 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (8.6ms)
+  Rendered comments/_form.html.erb (13.6ms)
+  Rendered articles/show.html.erb within layouts/application (27.1ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 76.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 14:52:08 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text5"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (19.3ms)[0m  [1mINSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text5"], ["created_at", "2017-08-13 09:22:08.417157"], ["updated_at", "2017-08-13 09:22:08.417157"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+  Rendered text template (0.0ms)
+Completed 200 OK in 62ms (Views: 33.3ms | ActiveRecord: 21.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 14:52:11 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (2.1ms)
+  Rendered comments/_form.html.erb (1.6ms)
+  Rendered articles/show.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 66.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:11 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:11 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:11 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 14:52:11 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:11 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 14:52:12 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 14:52:22 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.2ms)
+  Rendered comments/_form.html.erb (1.6ms)
+  Rendered articles/show.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 55.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:22 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:22 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:22 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 14:52:22 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:22 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 14:52:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (2.3ms)
+  Rendered comments/_form.html.erb (8.7ms)
+  Rendered articles/show.html.erb within layouts/application (16.1ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 85ms (Views: 82.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 14:52:27 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 14:52:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.6ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 14:52:34 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text6"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text6"], ["created_at", "2017-08-13 09:22:34.499103"], ["updated_at", "2017-08-13 09:22:34.499103"]]
+  [1m[35m (13.7ms)[0m  commit transaction
+  Rendered text template (0.0ms)
+Completed 200 OK in 23ms (Views: 0.7ms | ActiveRecord: 14.5ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 14:52:39 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.6ms)
+  Rendered comments/_form.html.erb (1.3ms)
+  Rendered articles/show.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 66.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:39 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:39 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:39 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 14:52:39 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 14:52:39 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 14:52:40 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.0ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 14:52:46 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text7"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text7"], ["created_at", "2017-08-13 09:22:46.207892"], ["updated_at", "2017-08-13 09:22:46.207892"]]
+  [1m[35m (263.6ms)[0m  commit transaction
+  Rendered text template (0.0ms)
+Completed 200 OK in 271ms (Views: 1.0ms | ActiveRecord: 264.1ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 14:52:55 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text8"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text8"], ["created_at", "2017-08-13 09:22:55.533939"], ["updated_at", "2017-08-13 09:22:55.533939"]]
+  [1m[35m (5.9ms)[0m  commit transaction
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 0.6ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (21.4ms)
+  Rendered layouts/_user_widget.html.erb (0.3ms)
+Completed 200 OK in 249ms (Views: 228.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:11:19 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:11:21 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (138.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:11:23 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:11:23 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:11:23 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:11:23 +0530
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:11:27 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (2.0ms)
+  Rendered comments/_form.html.erb (3.7ms)
+  Rendered articles/show.html.erb within layouts/application (96.5ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 259ms (Views: 252.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:13:29 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (12.0ms)
+  Rendered comments/_form.html.erb (126.3ms)
+  Rendered articles/show.html.erb within layouts/application (153.3ms)
+  Rendered layouts/_user_widget.html.erb (0.4ms)
+Completed 200 OK in 595ms (Views: 493.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:30 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:31 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:31 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:31 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:31 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:31 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:31 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:31 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:31 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:31 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:13:32 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (2.2ms)
+  Rendered comments/_form.html.erb (2.4ms)
+  Rendered articles/show.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 67.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:50 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:13:51 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.7ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.4ms)
+  Rendered comments/_form.html.erb (1.4ms)
+  Rendered articles/show.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 58.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:53 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:13:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 93ms (Views: 91.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:13:59 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:14:00 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:14:02 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.7ms)
+  Rendered comments/_form.html.erb (2.0ms)
+  Rendered articles/show.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 68ms (Views: 61.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:14:13 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:14:14 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.8ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:14:15 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.7ms)
+  Rendered comments/_form.html.erb (2.5ms)
+  Rendered articles/show.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 58.5ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 15:14:21 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text9"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text9"], ["created_at", "2017-08-13 09:44:21.730339"], ["updated_at", "2017-08-13 09:44:21.730339"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 41ms (Views: 31.4ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 15:14:31 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text10"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text10"], ["created_at", "2017-08-13 09:44:31.068831"], ["updated_at", "2017-08-13 09:44:31.068831"]]
+  [1m[36m (6.3ms)[0m  [1mcommit transaction[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 0.7ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:15:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_user_widget.html.erb (0.4ms)
+Completed 200 OK in 178ms (Views: 159.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:10 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:15:11 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:15:14 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:15:16 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:15:17 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:15:21 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (10.5ms)
+  Rendered comments/_form.html.erb (14.4ms)
+  Rendered articles/show.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 88.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 15:15:26 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text11"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text11"], ["created_at", "2017-08-13 09:45:26.558253"], ["updated_at", "2017-08-13 09:45:26.558253"]]
+  [1m[36m (6.1ms)[0m  [1mcommit transaction[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 17ms (Views: 3.5ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:15:29 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.9ms)
+  Rendered comments/_form.html.erb (5.1ms)
+  Rendered articles/show.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 73ms (Views: 68.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:15:39 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:16:05 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (4.0ms)
+  Rendered comments/_form.html.erb (2.3ms)
+  Rendered articles/show.html.erb within layouts/application (12.9ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 89ms (Views: 84.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:16:10 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:16:10 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:16:10 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:16:10 +0530
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.5ms)
+  Rendered comments/_form.html.erb (2.1ms)
+  Rendered articles/show.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:16:21 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:16:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.5ms)
+  Rendered comments/_form.html.erb (1.2ms)
+  Rendered articles/show.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 58.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:06 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:17:08 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.8ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (2.8ms)
+  Rendered comments/_form.html.erb (1.4ms)
+  Rendered articles/show.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 66.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:17:10 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:17:12 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:17:15 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 62ms (Views: 59.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:17:17 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (2.9ms)
+  Rendered comments/_form.html.erb (3.4ms)
+  Rendered articles/show.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 105ms (Views: 101.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:17:25 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 77ms (Views: 74.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:17:32 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:18:25 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (2.9ms)
+  Rendered comments/_form.html.erb (2.4ms)
+  Rendered articles/show.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 89ms (Views: 85.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-08-13 15:18:59 +0530
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered articles/_form.html.erb (23.4ms)
+  Rendered articles/edit.html.erb within layouts/application (27.0ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 118ms (Views: 114.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-08-13 15:19:01 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:19:04 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (3.1ms)
+  Rendered comments/_form.html.erb (2.1ms)
+  Rendered articles/show.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 91ms (Views: 85.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:19:32 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (10.9ms)
+  Rendered layouts/_user_widget.html.erb (0.3ms)
+Completed 200 OK in 150ms (Views: 134.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:33 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:19:34 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:19:38 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (8.5ms)
+  Rendered comments/_form.html.erb (15.7ms)
+  Rendered articles/show.html.erb within layouts/application (28.3ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 103ms (Views: 79.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:19:38 +0530
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:19:38 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:19:38 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:19:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:39 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:39 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:19:39 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:19:40 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:19:43 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:19:46 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (4.3ms)
+  Rendered comments/_form.html.erb (6.2ms)
+  Rendered articles/show.html.erb within layouts/application (15.4ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 68.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:19:48 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.8ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 74ms (Views: 71.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:20:49 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 62ms (Views: 60.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:20:51 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (3.3ms)
+  Rendered comments/_form.html.erb (2.2ms)
+  Rendered articles/show.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 102.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-08-13 15:20:53 +0530
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered articles/_form.html.erb (6.6ms)
+  Rendered articles/edit.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 71.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-08-13 15:20:55 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:37:22 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:37:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:37:25 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (2.5ms)
+  Rendered comments/_form.html.erb (3.6ms)
+  Rendered articles/show.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 65.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 15:37:30 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text12"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text12"], ["created_at", "2017-08-13 10:07:30.868128"], ["updated_at", "2017-08-13 10:07:30.868128"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  Rendered text template (0.0ms)
+Completed 200 OK in 10ms (Views: 1.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-08-13 15:37:42 +0530
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.erb (2.2ms)
+  Rendered articles/edit.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 67ms (Views: 63.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/articles/1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQLxBSsGmzeYcsaIGje2Bt08wZtGrAsp8q4UilGIi5c=", "article"=>{"name"=>"Superman", "content"=>"Superman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, high school students living in Cleveland, Ohio, in 1933. They sold Superman to Detective Comics, the future DC Comics, in 1938. Superman debuted in Action Comics #1 (cover-dated June 1938) and subsequently appeared in various radio serials, newspaper strips, television programs, films, and video games. With this success, Superman helped to create the superhero archetype and establish its primacy within the American comic book. The character is also referred to by such epithets as the Big Blue Boy Scout, the Man of Steel, the Man of Tomorrow, and the Last Son of Krypton."}, "commit"=>"Update Article", "id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "articles" SET "content" = ?, "name" = ?, "updated_at" = ? WHERE "articles"."id" = 1  [["content", "Superman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, high school students living in Cleveland, Ohio, in 1933. They sold Superman to Detective Comics, the future DC Comics, in 1938. Superman debuted in Action Comics #1 (cover-dated June 1938) and subsequently appeared in various radio serials, newspaper strips, television programs, films, and video games. With this success, Superman helped to create the superhero archetype and establish its primacy within the American comic book. The character is also referred to by such epithets as the Big Blue Boy Scout, the Man of Steel, the Man of Tomorrow, and the Last Son of Krypton."], ["name", "Superman"], ["updated_at", "2017-08-13 10:08:44.403661"]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 10ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (1.6ms)
+  Rendered comments/_form.html.erb (1.2ms)
+  Rendered articles/show.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 54.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 15:38:44 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 15:38:46 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.0ms)
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"   ORDER BY "articles"."id" ASC LIMIT 1[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE "comments" SET "commentable_id" = NULL WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ? AND "comments"."id" IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)  [["commentable_id", 1], ["commentable_type", "Article"]]
+  [1m[36m (4.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 16:26:52 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (17.4ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (30.5ms)
+  Rendered layouts/_user_widget.html.erb (0.7ms)
+Completed 200 OK in 368ms (Views: 285.4ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 16:26:52 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 16:26:53 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 16:26:53 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 16:26:53 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 16:26:53 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 16:26:53 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 16:26:53 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 16:26:53 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 16:26:53 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 16:26:53 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 16:26:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (38.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 16:26:55 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (23.4ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (56.0ms)
+  Rendered comments/_form.html.erb (119.2ms)
+  Rendered articles/show.html.erb within layouts/application (180.7ms)
+  Rendered layouts/_user_widget.html.erb (0.1ms)
+Completed 200 OK in 290ms (Views: 218.2ms | ActiveRecord: 24.3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 16:27:08 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 16:27:08 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 16:27:09 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 16:27:09 +0530
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (4.2ms)
+  Rendered comments/_form.html.erb (21.6ms)
+  Rendered articles/show.html.erb within layouts/application (39.7ms)
+  Rendered layouts/_user_widget.html.erb (0.3ms)
+Completed 200 OK in 186ms (Views: 149.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 16:28:11 +0530
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-13 16:28:13 +0530
+
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/apple/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.4ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 16:28:18 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"text1"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (18.5ms)[0m  INSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "text1"], ["created_at", "2017-08-13 10:58:18.163871"], ["updated_at", "2017-08-13 10:58:18.163871"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 62ms (Views: 33.8ms | ActiveRecord: 20.5ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 16:28:31 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"anmol"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "anmol"], ["created_at", "2017-08-13 10:58:31.303802"], ["updated_at", "2017-08-13 10:58:31.303802"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 3.2ms)
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles"   ORDER BY "articles"."id" ASC LIMIT 1[0m
+  [1m[35mSQL (3.2ms)[0m  UPDATE "comments" SET "commentable_id" = NULL WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?  [["commentable_id", 1], ["commentable_type", "Article"]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_user_widget.html.erb (0.3ms)
+Completed 200 OK in 147ms (Views: 130.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:33 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-08-13 16:30:51 +0530
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 16:31:42 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (3.2ms)
+  Rendered comments/_form.html.erb (25.8ms)
+  Rendered articles/show.html.erb within layouts/application (33.2ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 104ms (Views: 84.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-08-13 16:31:44 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ?[0m  [["commentable_id", 1], ["commentable_type", "Article"]]
+  Rendered comments/_comments.html.erb (0.8ms)
+  Rendered comments/_form.html.erb (1.4ms)
+  Rendered articles/show.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_user_widget.html.erb (0.0ms)
+Completed 200 OK in 67ms (Views: 64.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 16:31:55 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"he is my favorite superhero"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "he is my favorite superhero"], ["created_at", "2017-08-13 11:01:55.105068"], ["updated_at", "2017-08-13 11:01:55.105068"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 10ms (Views: 1.6ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 16:31:59 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"mine too"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "mine too"], ["created_at", "2017-08-13 11:01:59.772827"], ["updated_at", "2017-08-13 11:01:59.772827"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-08-13 16:32:05 +0530
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"content"=>"he is my kryptonite"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "comments" ("commentable_id", "commentable_type", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commentable_id", 1], ["commentable_type", "Article"], ["content", "he is my kryptonite"], ["created_at", "2017-08-13 11:02:05.760920"], ["updated_at", "2017-08-13 11:02:05.760920"]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 3.3ms)

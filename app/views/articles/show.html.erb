@@ -1,0 +1,49 @@
+<h1><%= @article.name %></h1>
+
+<%= simple_format @article.content %>
+
+<p>
+	<%= link_to "Edit", edit_article_path(@article) %>
+</p>
+
+<h2>Comments</h2>
+
+<%= render 'comments/comments' %>
+
+<p>
+	<%= render 'comments/form' %>
+</p>
+
+<script>
+$(document).ready(function(){
+    var $pubnub = new PubNub({
+        publishKey : 'demo',
+        subscribeKey : 'demo'
+    })
+    
+    var article_id = "comments-" + window.location.pathname.split("/")[2];
+    console.log(article_id);
+
+    $pubnub.subscribe({
+        channels: [article_id] 
+    });
+
+    $pubnub.addListener({
+        message: function(message) {
+            console.log(message.message["comment"]);
+            $("#comments").append("<div class=\"comment\"><p>" + message.message["comment"] + "</p></div>")
+        }
+    })
+
+    $("#new_comment").bind("ajax:complete", function(event,xhr,status){
+     $('#comment_content').val('');
+    });
+
+	$('.actions input').keypress(function (e) {
+		if (e.which == 13) {
+			$('form#new_comment').submit();
+			return false;
+		}
+	});
+});
+</script>
